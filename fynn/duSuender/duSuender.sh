@@ -9,4 +9,3 @@ find . -type f -exec du -b {} +| sort -n -r
 
 # Top 3
 find . -type f -exec du -b {} +| sort -n -r | head --lines=3
-
